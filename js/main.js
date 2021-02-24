@@ -6,7 +6,7 @@ var countdownMinutes = document.querySelector('.countdownMinutes');
 var countdownSeconds = document.querySelector('.countdownSeconds');
 
 
-setInterval(calculateTimeLeft(), 100);
+setInterval(calculateTimeLeft, 1000);
 
 function calculateTimeLeft() {
 
